@@ -1,0 +1,11 @@
+bin/
+obj/
+Debug/
+Release/
+packages/
+*.nupkg
+.vs/
+.vscode/
+*.user
+*.suo
+.DS_Store

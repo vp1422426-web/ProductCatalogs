@@ -1,0 +1,19 @@
+﻿@model ProductCatalogs.Models.Product
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Details</title>
+</head>
+<body>
+    <h1>@Model.ProductName</h1>
+    
+    <p><strong>Product ID:</strong> @Model.ProductId</p>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Price:</strong> @Model.Price</p>
+    <p><strong>Category:</strong> @Model.Category</p>
+    
+    <br />
+    <a href="/Product/Index">Back to List</a>
+</body>
+</html>
